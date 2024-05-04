@@ -45,7 +45,7 @@ alert (siginLine);*/
 /*chapter 3 asignments ++++++++++++++++++2++++++++++3+++++++++++++++++
 
 var age = ("Im 15 yaers old");
-alert (age); */
+alert (age); 
 
 var age =(19)
 if(age>18){
@@ -53,4 +53,47 @@ if(age>18){
 }
 else{
     alert("no boy youcan not drive")
+} 
+
+if (typeof(Storage) !== "undefined") {
+    if (localStorage.visits) {
+        localStorage.visits = Number(localStorage.visits) + 1;
+    } else {
+        localStorage.visits = 1;
+    }
+    
+    document.write("You have visited this site " + localStorage.visits + " times.");
+} else {
+    document.write("Sorry, your browser does not support web storage, so we cannot track your visits.");
 }
+var birthYear = 1995;
+
+document.write("My birth year is: " + birthYear);
+
+var visitorName = ("Sadaqat")
+var productTitle = ("T-Shirt")
+var Qty = 5;
+document.write(visitorName + " orderd " + Qty + " " + productTitle + " (m) on Xyz cloathing store ")*/
+
+//chapter=============================================(4)+++
+/*let apple1,apple2,apple3;
+//legal variable 5
+let myApple;
+let my_Apple;
+let myApple2;
+let _myApple;
+let $myApple;
+//ilegal varibale 5//
+//let 2myApple;//
+//let my-apple1;//
+//let my apple;//
+//let myApple!;//
+//let let;//
+document.write(`
+  <h1>Rules for naming JS variables</h1>
+  <p>Variable names can only contain letters, numbers, underscores, and dollar signs.</p>
+  <p>For example $my_1stVariable</p>
+  <p>Variables must begin with a letter, underscore, or dollar sign. For example $name, _name, or name</p>
+  <p>Variable names are case sensitive</p>
+  <p>Variable names should not be JS reserved keywords.</p>
+`);*/
