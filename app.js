@@ -97,3 +97,55 @@ document.write(`
   <p>Variable names are case sensitive</p>
   <p>Variable names should not be JS reserved keywords.</p>
 `);*/
+
+/*let num1 = 3;
+let num2 = 5;
+let sum = num1 + num2;
+
+document.write("sum of " + num1 + " and " + num2 + " is " + sum);
+
+let num1 = 8;
+let num2 = 5;
+let difference = num1 - num2;
+
+document.write("The difference of " + num1 + " - " + num2 + " is " + difference);
+
+let num1 = 3;
+let num2 = 5;
+
+let product = num1 * num2;
+
+document.write("The product of " + num1 + " * " + num2 + " is " + product);
+
+let num1 = 15;
+let num2 = 5;
+
+let product = num1 / num2;
+
+document.write("The product of " + num1 + " / " + num2 + " is " + product);
+
+let num1 = 17;
+let num2 = 5;
+
+let reminder = num1 % num2;
+
+document.write("The reminder of " + num1 + " divided by " + num2 + " is " + reminder);
+
+let num;
+
+document.write(" Valueafter variable declaration is: " + num);
+
+num = 5;
+document.write(", Intial value is " + num);
+
+num ++;
+document.write(", Value after increment is " + num);
+
+num +=7;
+document.write(", Value after addision is " + num);
+
+num --;
+document.write(", Value after decrement is " + num);
+
+num %=4;
+document.write(", The reminder is " + num);*/
