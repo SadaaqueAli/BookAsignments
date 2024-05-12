@@ -149,3 +149,82 @@ document.write(", Value after decrement is " + num);
 
 num %=4;
 document.write(", The reminder is " + num);*/
+
+///++++++++++++++++++++++======chapter=====++++++++++(  shoping chart  )----continued////////////
+
+/*let price1 = 650;// Price of item 1
+let price2 = 100; // Price of item 2
+
+let quantity1 = 3;// Ordered quantity of item 1
+let quantity2 = 7;// Ordered quantity of item 2
+
+let shipcharges = 100; // Shipping charges
+
+let totalCost = (price1 * quantity1) + (price2 * quantity2) + shipcharges;
+
+document.write("Price of item1 is: " + price1 + "<br>");
+document.write("Quantity of item1 is: " + quantity1 + "<br>");
+
+document.write("Price of item2 is: " + price2 + "<br>");
+document.write("Quantity of item2 is: " + quantity2 + "<br>");
+
+document.write("shipping charges  " + shipcharges + "<br>")
+
+document.write("total cost of item is:" + totalCost );*/
+
+
+///////////////////////////////////////////////////////mark sheet obtaineds=========
+
+/*let totalMarks = 980;
+ let obtainedmarks = 804;
+ let parcentage =(obtainedmarks / totalMarks ) * 100;
+
+ document.write("totalMarks: " + totalMarks + "<br>");
+ document.write("obtained marks: " + obtainedmarks + "<br>" );
+ document.write("students parcentage : " + parcentage.toFixed(13) + "%" );
+
+
+==========================================================================currency calculator==
+
+ let totalInPakistaniRupees = (10 * 104.80) + (25 * 28);
+
+ document.write("Total Currency in PKR: " + totalInPakistaniRupees );*/
+ 
+ 
+//Here is the program to calculate the age:
+ 
+
+ ///================================================age calculator==================
+
+/* let currentYear = 2016;
+ let birthYear = 1992;
+ let YourAge = (currentYear-birthYear)
+ 
+ document.write("Current year " + currentYear + "<br>");
+
+ document.write("Birth year " + birthYear + "<br>");
+ 
+ document.write("Your age is " + YourAge );*/
+
+
+//////////////////////////////////////////////////////////The Geometrizer==========
+
+ /*let radius = 20; 
+
+let circumference = 2 * 3.142 * radius;
+document.write("The circumference is " + circumference + "<br>");
+
+let area = 3.142 * radius * radius;
+document.write("The area is " + area);*/
+
+
+/*
+let favSnack = "chips";
+let currentAge = 15;
+let maxAge = 65;
+let amountPerDay = 3;
+
+let totalamount = (maxAge - currentAge) * 50 *amountPerDay;
+
+document.write
+document.write("You will need" + amountPerDay + " " + favSnack + "Chocolate chip to last you until the ripe old age of " + maxAge + ".");*/
